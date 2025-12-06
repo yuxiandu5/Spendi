@@ -1,6 +1,6 @@
 import type { FC } from 'react'
 import './App.css'
-import Button from './components/ui/Button'
+import Button from './components/ui/Button.tsx'
 
 const HomePage: FC = () => (
   <div className="flex h-screen w-screen items-center justify-center text-emerald-700">
