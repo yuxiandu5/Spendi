@@ -1,5 +1,6 @@
 words:
   - spendi
   - commitlint
+  - EAFCFC
 flagWords: null
 suggestWords: null
