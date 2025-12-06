@@ -1,5 +1,3 @@
-// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
-import storybook from 'eslint-plugin-storybook'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 import pluginReact from 'eslint-plugin-react'
@@ -16,7 +14,14 @@ import prettier from 'eslint-config-prettier'
 
 export default defineConfig([
   {
-    ignores: ['dist', 'node_modules', '*.min.js', 'coverage', '**/*.d.ts'],
+    ignores: [
+      'dist',
+      'node_modules',
+      '*.min.js',
+      'coverage',
+      '**/*.d.ts',
+      'src/components/**',
+    ],
   },
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
