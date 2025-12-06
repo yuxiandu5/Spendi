@@ -1,10 +1,10 @@
 import type { FC } from 'react'
-import Button from '../../components/ui/Button'
+import DialogDemo from './component/CreateTripDialog'
 
 const HomePage: FC = () => (
-  <div className="flex h-screen w-screen items-center justify-center text-emerald-700">
+  <div className="flex h-screen w-screen items-center justify-center">
     Hello World
-    <Button variant="ghost">Click me</Button>
+    <DialogDemo />
   </div>
 )
 
